@@ -1,4 +1,4 @@
-## 📦 Retail Operations & Profitability Analysis (Power BI)
+## 📦 Retail Operations & Profitability Analysis
 
 ### 🔍 Project Overview
 
