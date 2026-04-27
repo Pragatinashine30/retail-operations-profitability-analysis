@@ -1,8 +1,8 @@
-## 📊 Customer Shopping Data Analysis (Power BI)
+## 📦 Retail Operations & Profitability Analysis (Power BI)
 
 ### 🔍 Project Overview
 
-This project analyzes customer shopping behavior using retail transaction data from multiple shopping malls (2021–2023). The objective is to extract actionable insights related to customer demographics, revenue patterns, product categories, and payment methods using Power BI.
+This project analyzes retail operations and profitability by combining supply chain, inventory, and sales data. The objective is to identify key drivers of revenue, cost inefficiencies, supplier performance, and operational risks using an interactive Power BI dashboard.
 
 ---
 
@@ -10,67 +10,83 @@ This project analyzes customer shopping behavior using retail transaction data f
 
 The dataset includes:
 
-* Customer demographics (Age, Gender)
-* Product category and quantity
-* Price and transaction details
-* Payment methods (Cash, Credit Card, Debit Card)
-* Shopping mall locations and invoice dates
+* Product details (Product Type, SKU, Price)
+* Sales & Profit (Revenue, Profit, Quantity Sold)
+* Inventory (Stock Levels, Availability, Turnover)
+* Logistics (Shipping Time, Shipping Cost, Carriers)
+* Supplier Data (Lead Time, Cost per Unit, Defect Rate)
+* Manufacturing (Production Volume, Manufacturing Cost)
 
 ---
 
-### 🎯 Key Business Questions
+### 🎯 Key Business Objectives
 
-* How does shopping distribution vary by gender?
-* Which gender contributes more to revenue?
-* Which age group generates the highest sales?
-* What are the most popular product categories?
-* How do payment methods vary across customers?
+* Analyze revenue and profit contribution by product categories
+* Identify operational inefficiencies in inventory and production
+* Evaluate supplier performance and quality risks
+* Analyze logistics cost vs revenue impact
+* Detect risks in lead time, defects, and cost variability
 
 ---
 
 ### 📊 Dashboard Features
 
-* Interactive filters (Age, Gender, Category, Payment Method)
 * KPI cards:
 
   * Total Revenue
-  * Total Orders
-  * Quantity Sold
+  * Total Profit
+  * Profit Margin %
+  * Defect Rate %
+  * On-Time Delivery %
+  * Average Lead Time
+
 * Visualizations:
 
-  * Revenue by Gender and Age Group
-  * Category-wise sales distribution
-  * Payment method analysis
-  * Time-based trends
+  * Revenue vs Cost Analysis
+  * Profit by Product Type
+  * Production Volume vs Defect Rate
+  * Supplier Performance Matrix
+  * Shipping Cost vs Revenue
+  * Inventory Turnover Analysis
 
 ---
 
 ### 💡 Key Insights
 
-* Certain gender groups contribute higher revenue despite similar purchase volume
-* Middle-age customers drive the majority of total sales
-* A few product categories dominate overall purchases
-* Credit cards are the most preferred payment method
+* Skincare category is the primary revenue and production driver
+* Profit is concentrated among a few top-performing SKUs, indicating portfolio dependency risk
+* High shipping costs do not always translate into higher revenue, revealing cost inefficiencies
+* Suppliers with high defect rates also show higher cost per unit, increasing margin risk
+* Longer lead times contribute to inventory and delivery inefficiencies
 
 ---
 
 ### 🛠️ Tools Used
 
 * Power BI
-* Excel
+* Data Analysis
 
 ---
 
 ### 📂 Files
 
-* `dashboard/Customer_Shopping_Analysis.pbix` – Power BI dashboard
-* `screenshots/customer_dashboard.png` – Dashboard preview
+* `dashboard/Retail_Operations_Analysis.pbix` – Power BI dashboard
+* `screenshots/retail_dashboard.png` – Dashboard preview
 
 ---
 
 ### 📸 Project Preview
 
-![Dashboard](screenshots/customer_dashboard.png)
+![Dashboard](screenshots/retail_dashboard.png)
+
+---
+
+### 📥 Download Dashboard
+
+> ⚠️ GitHub cannot preview `.pbix` files.
+> Please download the file and open it using **Power BI Desktop**.
+
+👉 [Download Dashboard](dashboard/Retail_Operations_Analysis.pbix)
 
 ---
 
