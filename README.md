@@ -63,8 +63,14 @@ The dataset includes:
 
 ### 🛠️ Tools Used
 
-* Power BI
-* Data Analysis
+- Power BI (Dashboarding & Data Visualization)
+- SQL (Data Extraction & Querying)
+- Excel (Data Cleaning & Preprocessing)
+- DAX (Data Modeling & Calculations)
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Data Visualization
 
 ---
 
