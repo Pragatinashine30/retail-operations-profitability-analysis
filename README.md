@@ -2,7 +2,7 @@
 
 ### 🔍 Project Overview
 
-This project focuses on analyzing supply chain data to identify inefficiencies, optimize operations, and improve business performance. Using Power BI, the data was transformed into an interactive dashboard to track key supply chain metrics such as inventory levels, shipping performance, costs, and product demand.
+This project focuses on analyzing supply chain data to identify inefficiencies, optimize operations, and improve business performance. Using Power BI, an interactive dashboard was created to monitor key metrics such as inventory levels, supplier performance, logistics efficiency, and cost distribution.
 
 ---
 
@@ -17,8 +17,6 @@ The dataset contains detailed supply chain information including:
 * Supplier Information (Supplier Name, Location, Lead Time)
 * Manufacturing (Production Volume, Manufacturing Costs, Defect Rates)
 
-📌 Source dataset used in the project: 
-
 ---
 
 ### 🎯 Key Business Objectives
@@ -27,7 +25,7 @@ The dataset contains detailed supply chain information including:
 * Monitor stock levels and identify inventory risks
 * Evaluate supplier efficiency and lead times
 * Analyze shipping performance and transportation costs
-* Identify factors impacting supply chain efficiency
+* Identify key factors impacting supply chain efficiency
 
 ---
 
@@ -52,10 +50,10 @@ The dataset contains detailed supply chain information including:
 
 ### 💡 Key Insights
 
-* Certain products generate high revenue but face stock shortages
-* Longer lead times directly impact product availability
+* High-revenue products often face stock shortages
+* Longer lead times negatively impact product availability
 * Shipping costs vary significantly across transportation modes
-* Some suppliers show higher defect rates impacting quality
+* Some suppliers show higher defect rates affecting product quality
 
 ---
 
@@ -68,17 +66,18 @@ The dataset contains detailed supply chain information including:
 
 ### 📂 Files
 
-* `Supply_Chain_Analysis.pbix` – Power BI dashboard file
+* `dashboard/Supply_Chain_Analysis.pbix` – Power BI dashboard file
+* `screenshots/supply_chain_dashboard.png` – Dashboard preview
 
 ---
 
 ### 📸 Project Preview
 
-(Add your dashboard screenshot here)
+![Dashboard](screenshots/supply_chain_dashboard.png)
 
 ---
 
 ### 👨‍💻 Author
 
-Guneet Kapoor
-Aspiring Data Analyst | Power BI | SQL
+Pragati Nashine
+Data Analyst | Power BI | SQL
