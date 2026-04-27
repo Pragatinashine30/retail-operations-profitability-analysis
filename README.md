@@ -1,167 +1,76 @@
-## 📦 Retail Operations & Profitability Analysis (Power BI)
+## 📊 Customer Shopping Data Analysis (Power BI)
 
 ### 🔍 Project Overview
 
-This project analyzes retail operations and profitability by combining supply chain, inventory, and sales data. The objective is to identify key drivers of revenue, cost inefficiencies, supplier performance, and operational risks using an interactive Power BI dashboard.
+This project analyzes customer shopping behavior using retail transaction data from multiple shopping malls (2021–2023). The objective is to extract actionable insights related to customer demographics, revenue patterns, product categories, and payment methods using Power BI.
 
 ---
 
 ### 📁 Dataset Description
 
-The dataset includes end-to-end retail and supply chain data:
+The dataset includes:
 
-* Product details (Product Type, SKU, Price)
-* Sales & Profit (Revenue, Profit, Quantity Sold)
-* Inventory (Stock Levels, Availability, Turnover)
-* Logistics (Shipping Time, Shipping Cost, Carriers)
-* Supplier Data (Lead Time, Cost per Unit, Defect Rate)
-* Manufacturing (Production Volume, Manufacturing Cost)
+* Customer demographics (Age, Gender)
+* Product category and quantity
+* Price and transaction details
+* Payment methods (Cash, Credit Card, Debit Card)
+* Shopping mall locations and invoice dates
 
 ---
 
-### 🎯 Key Business Objectives
+### 🎯 Key Business Questions
 
-* Analyze revenue and profit contribution by product categories
-* Identify operational inefficiencies in inventory and production
-* Evaluate supplier performance and quality risks
-* Analyze logistics cost vs revenue impact
-* Detect risks in lead time, defects, and cost variability
+* How does shopping distribution vary by gender?
+* Which gender contributes more to revenue?
+* Which age group generates the highest sales?
+* What are the most popular product categories?
+* How do payment methods vary across customers?
 
 ---
 
 ### 📊 Dashboard Features
 
+* Interactive filters (Age, Gender, Category, Payment Method)
 * KPI cards:
 
   * Total Revenue
-  * Total Profit
-  * Profit Margin %
-  * Defect Rate %
-  * On-Time Delivery %
-  * Average Lead Time
-
+  * Total Orders
+  * Quantity Sold
 * Visualizations:
 
-  * Revenue vs Cost Analysis
-  * Profit by Product Type
-  * Production Volume vs Defect Rate
-  * Supplier Performance Matrix
-  * Shipping Cost vs Revenue
-  * Inventory Turnover Analysis
+  * Revenue by Gender and Age Group
+  * Category-wise sales distribution
+  * Payment method analysis
+  * Time-based trends
 
 ---
 
 ### 💡 Key Insights
 
-* Skincare category is the primary revenue and production driver
-* Profit is concentrated among a few top-performing SKUs, indicating portfolio dependency risk
-* High shipping costs do not always translate into higher revenue, revealing cost inefficiencies
-* Suppliers with high defect rates also show higher cost per unit, increasing margin risk
-* Longer lead times contribute to inventory and delivery inefficiencies
+* Certain gender groups contribute higher revenue despite similar purchase volume
+* Middle-age customers drive the majority of total sales
+* A few product categories dominate overall purchases
+* Credit cards are the most preferred payment method
 
 ---
 
 ### 🛠️ Tools Used
 
 * Power BI
-* Data Modeling & Visualization
-* Business Analysis
+* Excel
 
 ---
 
 ### 📂 Files
 
-* `dashboard/Retail_Operations_Analysis.pbix` – Power BI dashboard
-* `screenshots/retail_dashboard.png` – Dashboard preview
+* `dashboard/Customer_Shopping_Analysis.pbix` – Power BI dashboard
+* `screenshots/customer_dashboard.png` – Dashboard preview
 
 ---
 
 ### 📸 Project Preview
 
-![Dashboard](screenshots/retail_dashboard.png)
-
----
-
-### 👨‍💻 Author
-
-Guneet Kapoor
-Aspiring Data Analyst | Power BI | SQL
-## 📦 Supply Chain Analysis (Power BI)
-
-### 🔍 Project Overview
-
-This project focuses on analyzing supply chain data to identify inefficiencies, optimize operations, and improve business performance. Using Power BI, an interactive dashboard was created to monitor key metrics such as inventory levels, supplier performance, logistics efficiency, and cost distribution.
-
----
-
-### 📁 Dataset Description
-
-The dataset contains detailed supply chain information including:
-
-* Product details (Product Type, SKU, Price)
-* Sales & Revenue (Units Sold, Revenue Generated)
-* Inventory (Stock Levels, Availability)
-* Logistics (Shipping Times, Carriers, Costs, Routes)
-* Supplier Information (Supplier Name, Location, Lead Time)
-* Manufacturing (Production Volume, Manufacturing Costs, Defect Rates)
-
----
-
-### 🎯 Key Business Objectives
-
-* Analyze product performance and revenue contribution
-* Monitor stock levels and identify inventory risks
-* Evaluate supplier efficiency and lead times
-* Analyze shipping performance and transportation costs
-* Identify key factors impacting supply chain efficiency
-
----
-
-### 📊 Dashboard Features
-
-* Interactive filters (Product Type, Supplier, Location)
-* KPI cards:
-
-  * Total Revenue
-  * Total Units Sold
-  * Average Lead Time
-  * Total Shipping Cost
-* Visualizations:
-
-  * Revenue by Product Type
-  * Stock Level vs Demand
-  * Supplier Performance Analysis
-  * Shipping Cost & Time Analysis
-  * Defect Rate & Quality Insights
-
----
-
-### 💡 Key Insights
-
-* High-revenue products often face stock shortages
-* Longer lead times negatively impact product availability
-* Shipping costs vary significantly across transportation modes
-* Some suppliers show higher defect rates affecting product quality
-
----
-
-### 🛠️ Tools Used
-
-* Power BI
-* Excel / Database
-
----
-
-### 📂 Files
-
-* `dashboard/Supply_Chain_Analysis.pbix` – Power BI dashboard file
-* `screenshots/supply_chain_dashboard.png` – Dashboard preview
-
----
-
-### 📸 Project Preview
-
-![Dashboard](screenshots/supply_chain_dashboard.png)
+![Dashboard](screenshots/customer_dashboard.png)
 
 ---
 
